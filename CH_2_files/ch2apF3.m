@@ -13,7 +13,6 @@ numg = sym2poly(numg);
 deng = sym2poly(deng);
 
 
-
 disp('LTI G(s) in Polynomial Form')
 % 將 G(s) 轉換為 LTI (線性時不變系統) 物件並顯示
 Gtf = tf(numg, deng)
